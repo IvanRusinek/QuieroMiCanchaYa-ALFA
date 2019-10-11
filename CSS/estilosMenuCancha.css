@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*IMAGEN DE FONDO*/
+body {
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-block{
+    width: 400px; 
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin:auto;
+    
+  }
+  .text-center{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .row {
+    margin: 30px;
+  }
+  button{
+    background: #1D9216;
+    color: #FFF;
+    border-radius: 2px;
+    border-bottom: 4px solid #1D9216;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
